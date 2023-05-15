@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Formulario Evento Sabores de Colombia</title>
         <nav> 
             <h2>
                 Formulario opinion del evento de catering "Sabores de Colombia"
@@ -11,18 +12,15 @@
         <h4>Dejanos saber un poco de ti</h4>
         <form action="">
             <label for="nombres">Nombres</label>
-            <input type="text">
-        </form>
-        <form action="">
+            <input type="text"> <br> <br>
             <label for="apellidos">Apellidos</label>
-            <input type="text">
-        </form>
-        <form action="">
+            <input type="text"><br> <br
             <label for="email">Correo electronico</label>
-            <input type="text">
+            <input type="text"><br> <br>
+            <label for="numero">Telefono</label>
+            <input type="number"> <br> <br>
         </form>
-    </main>
-    <main>
+    
         <h4> Ahora cuentanos tu experiencia en el evento de Catering "Sabores de Colombia"</h4>
     
         <form action="">
@@ -32,32 +30,32 @@
                 <option value="pargorojoensalsadecoco">Pargo Rojo en Salsa de Coco</option>
                 <option value="cevichedecamarónconmango">Ceviche de Camarón con Mango</option>
                 <option value="lomodecerdoensalsadepanelaycerveza">Lomo de Cerdo en Salsa de Panela y Cerveza</option>
-            </select>
-        </form>
-        <form action="">
+            </select> <br> <br>
             <label for="entrada fav">Seleccione su entrada favorita del Evento</label>
             <select name="entradaFav" id="entrada">
                 <option value="tostonesrellenos">Tostones Rellenos</option>
                 <option value="nachoscolombianos">Nachos Colombianos</option>
                 <option value="arepasdecamaron">Arepas de Camarón</option>
                 <option value="croquetasdeyucayqueso">Croquetas de Yuca y Queso</option>
-            </select>        
-        </form>    
-        <form>
+            </select> <br> <br>
             <label for="postre fav">Seleccione su postre favorito del Evento</label>
             <select name="postrefav" id="postre">
                 <option value="tortatreslechesconsalsadechontaduro">Torta Tres Leches con Salsa de Chontaduro</option>
                 <option value="flandecafe">Flan de Café</option>
                 <option value="mazamorrademaizconheladodelulo">Mazamorra de Maíz con Helado de Lulo</option>
                 <option value="buñuelosrellenosdebocadillo">Buñuelos Rellenos de Bocadillo</option>
-            </select>
-        </form>
-        <form> 
+            </select><br> <br>
             <label for="permisos">¿Nos permitirías utilizar tus comentarios y evaluaciones de manera anónima para fines de promoción y mejora de nuestros servicios?</label>
             <select name="permisos" id="permisos">
                 <option value="si">Si</option>
                 <option value="no">No</option>
-            </select>
+            </select> <br> <br>
+            <label for="nombre">Sugerencias del Evento</label>
+            <textarea name="sugerencias"></textarea>
         </form>
+        <button type="submit">Enviar</button>
     </main>
+    <footer>
+        <h2>Contactanos</h2>
+    </footer>
 </html>
